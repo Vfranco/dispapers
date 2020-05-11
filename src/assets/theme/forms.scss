@@ -1,0 +1,44 @@
+/* Form */
+
+.dp {
+    &__form-title {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__form-subtitle {
+        font-size: 0.8em;
+    }
+
+    &__text-subtotal {
+        font-size: 0.8em;
+    }
+
+    &__pointer {
+        cursor: pointer;
+    }
+
+    &__row-border {
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+    }
+
+    &__item {
+        padding: 2em 0px;
+    }
+
+    &__count-item {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #ccc;
+        padding: 0.5em 0.5em;
+        border-radius: 0.5em;
+        line-height: 15px;    
+    }
+
+    @media (max-width: 415px) {
+        &__text-product {
+            font-size: 0.6em;
+        }
+    }
+}

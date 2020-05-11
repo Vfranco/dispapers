@@ -1,0 +1,11 @@
+<svg id="Image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="370" height="145" viewBox="0 0 370 145">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M0,145V20A20,20,0,0,1,20,0H350a20,20,0,0,1,20,20V145Z" fill="#141821"/>
+    </clipPath>
+  </defs>
+  <path id="Mask-2" data-name="Mask" d="M0,145V20A20,20,0,0,1,20,0H350a20,20,0,0,1,20,20V145Z" fill="#141821"/>
+  <g id="Image-2" data-name="Image" clip-path="url(#clip-path)">
+    <image id="Image-3" data-name="Image" width="370" height="462.5" transform="translate(0 -242)" xlink:href="Image-image.png"/>
+  </g>
+</svg>

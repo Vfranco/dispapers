@@ -1,0 +1,20 @@
+/* Cards */
+
+.dp {
+    &__card {
+        border: 0px;
+        border-radius: 1.3em;
+        box-shadow: 0em 0em 1em rgba(199, 199, 199, 0.3);
+    }
+
+    &__card-profile {
+        text-align: center;
+        position: relative;
+        bottom: 4em;
+    }
+
+    &__card-buttons {
+        display: flex;
+        justify-content: center;
+    }
+}

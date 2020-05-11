@@ -1,0 +1,31 @@
+/* Buttons */
+
+.dp {
+    &__btn-listed {
+        background-color: $btn-color-listed;
+        border-radius: 2.5em;
+        padding: 1.3em 2em;
+        color: #fff;
+    }
+
+    &__btn-listed:hover {
+        color: #fff;
+        background-color: #00bf8e;
+    }
+
+    &__btn-message {
+        background-color: $btn-color-message ;
+        padding: 0 1.1em;
+    }
+
+    &__btn-buy {
+        background-color: #5351FB;
+        color: #fff;
+        font-size: 0.7em;
+        border-radius: 1em;
+    }
+
+    &__btn-buy:hover {
+        color: #fff;
+    }
+}
