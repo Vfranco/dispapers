@@ -4,12 +4,14 @@ import { LayoutModule } from '../layout/layout.module';
 
 import { LoginComponent } from './login/login.component';
 import { BoardComponent } from './board/board.component';
+import { ComponentsModule } from '../components/components.module';
 
 @NgModule({
 	declarations: [LoginComponent, BoardComponent],
 	imports: [		
 		CommonModule,
-		LayoutModule
+		LayoutModule,
+		ComponentsModule
 	],
 	exports : [BoardComponent]
 })

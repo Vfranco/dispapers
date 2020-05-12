@@ -1,0 +1,13 @@
+/* Inputs */
+
+.dp {
+    &__input {
+        border: 2px solid #C3C6D1;
+        border-radius: 0.5em;
+        padding: 1.2em;
+    }
+
+    &__input:focus {
+        border: 2px solid #dcdcdc;
+    }
+}

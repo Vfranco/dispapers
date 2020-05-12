@@ -25,6 +25,13 @@
         border-radius: 1em;
     }
 
+    &__btn-pay-credit {
+        background-color: $btn-color-listed;
+        color: #fff;
+        font-size: 0.7em;
+        border-radius: 1em;
+    }
+
     &__btn-buy:hover {
         color: #fff;
     }
